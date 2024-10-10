@@ -7,7 +7,9 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  envPrefix: ['GIGYA_', 'VITE_'],
+ base: '/external-doi/',
+
+ envPrefix: ['GIGYA_', 'VITE_'],
 
   plugins: [
     vue(),
