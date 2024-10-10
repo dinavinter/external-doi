@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@gigya/loader':
-        specifier: 0.0.1-bata.0
-        version: 0.0.1-bata.0
       '@gigya/types':
         specifier: 0.0.1-bata.1
         version: 0.0.1-bata.1
@@ -342,9 +339,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@gigya/loader@0.0.1-bata.0':
-    resolution: {integrity: sha512-1UmMv3Xz6mRLqiptfnrQT6dh5pRRAp0HmDkhOTYleEsyJsI4u7Trd+g1n6XxCE9pRzKsBfDtILKuCTt66dex/A==}
 
   '@gigya/types@0.0.1-bata.1':
     resolution: {integrity: sha512-UAH167L0ZmVJJiiPtPwH6riI9KPKkXIDC5mcwulKQGTEtMeQZbYnpGGXHyIIK1iZ6g3lSB5j/ZgN/Rm6kO98fg==}
@@ -1319,8 +1313,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
-
-  '@gigya/loader@0.0.1-bata.0': {}
 
   '@gigya/types@0.0.1-bata.1':
     dependencies:
