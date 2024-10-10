@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External DOI</title>
+  </head>
+  <body>
+  <gigya-js api-key="%GIGYA_API_KEY%" domain="%GIGYA_DOMAIN%">
+    <registration-screen> </registration-screen>
+    <div slot="loading" ><span>loading..</span></div>
+    <span slot="error" >An error occurred while loading the Gigya script.</span>
+  </gigya-js>
+    <script type="module" src="/src/app.element.ts"></script>
+  </body>
+</html>
