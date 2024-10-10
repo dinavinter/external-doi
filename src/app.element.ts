@@ -16,6 +16,14 @@ export class AppElement extends HTMLElement {
         const tailwind = document.createElement("script");
         tailwind.src =   "https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp,container-queries";
         document.head.appendChild(tailwind);
+        const style =document.head.appendChild(document.createElement("style"))
+        style.innerHTML = ` 
+               @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+                @tailwind screens;
+                @tailwind forms;
+        `;
         const div = this.appendChild(document.createElement("div"));
         div.id = "screen-container";
     }
